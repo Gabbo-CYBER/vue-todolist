@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .dark-theme {
+    background-color: #333;
+    color: #eee;
+}
+
+.todolist .list-group-item {
+    line-height: 2.5rem;
+}
+
+.todolist .list-group-item.done {
+    text-decoration: line-through;
+    color: lightgray;
+}
